@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap for All About Perfume
+Sitemap: https://allaboutperfume.co.za/sitemap.xml

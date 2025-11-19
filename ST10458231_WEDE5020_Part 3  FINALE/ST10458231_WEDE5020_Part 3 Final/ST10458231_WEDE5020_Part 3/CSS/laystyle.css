@@ -1,0 +1,415 @@
+/* --- General Page Styling --- */
+body {
+  margin: 0; /* Remove default browser spacing */
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Playful, bubbly font */
+  background-color: #ffe6f0; /* Soft pink background */
+  color: #5a2947; /* Deep rose text for contrast */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* --- Header Section --- */
+header {
+  background-color: #ffb6c1; /* Light pink background */
+  padding: 1rem; /* Space around content */
+  text-align: center; /* Center the content */
+  border-bottom: 4px dashed #ff69b4; /* Fun dashed bottom border */
+}
+
+header h1 {
+  font-family: "Pacifico", cursive; /* Whimsical font for Hello Kitty feel */
+  font-size: 2.5rem; /* Larger font for heading */
+  color: #d4006e; /* Hello Kitty signature pink */
+  margin: 0.5rem 0; /* Space above and below */
+}
+
+/* --- Navigation --- */
+nav {
+  background-color: #fff0f5; /* Light pink nav background */
+  text-align: center; /* Center nav links */
+  padding: 1rem 0; /* Vertical spacing */
+  display: flex; /* Arrange links horizontally */
+  justify-content: center; /* Center the links */
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 1rem; /* Space between links */
+}
+
+nav a {
+  color: #ff69b4; /* Hot pink text */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Emphasize nav links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  color: #d4006e; /* Deep pink highlight on hover or active */
+}
+
+/* --- Main Content Area --- */
+main {
+  padding: 2rem; /* Space around main content */
+  max-width: 1000px; /* Limit content width */
+  margin: auto; /* Center the content */
+  background-color: #fff0f5; /* Very light pink for content background */
+  border-radius: 15px; /* Rounded corners for softness */
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.5); /* Soft pink glow */
+}
+
+/* --- Subheadings --- */
+h2 {
+  font-family: "Pacifico", cursive; /* Match header style */
+  color: #ff69b4; /* Consistent pink for subheadings */
+  border-bottom: 2px dotted #ffb6c1; /* Decorative bottom border */
+  padding-bottom: 0.3rem; /* Space under text */
+}
+
+/* --- Images --- */
+img {
+  display: block; /* Make image a block element */
+  margin: 1rem auto; /* Center the image */
+  border: 3px solid #ff69b4; /* Pink border */
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.4); /* Pink glow */
+  border-radius: 12px; /* Rounded corners */
+  max-width: 100%; /* Responsive image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* --- Article Block --- */
+article {
+  background-color: #ffe4ec; /* Soft blush pink */
+  padding: 2rem; /* Internal spacing */
+  border-left: 5px solid #ff69b4; /* Bold left accent in pink */
+  border-radius: 16px; /* Rounded corners */
+}
+
+/* --- Search and Filter --- */
+.search-container, .filter-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container input, .filter-container input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ff99cc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #ff66b2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.search-container button:hover {
+  background-color: #ff4d94;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center; /* Center text */
+  background-color: #ffb6c1; /* Match header background */
+  padding: 1.5rem 1rem; /* More breathing room */
+  margin-top: 2rem; /* Space above footer */
+  border-top: 3px dashed #ff69b4; /* Top border in dashed pink */
+  color: #a84e6c; /* Slightly dimmed rose text */
+  font-size: 14px; /* Mobile-friendly font */
+  line-height: 1.6; /* Better spacing between lines */
+  word-wrap: break-word; /* Prevents text overflow */
+  font-weight: bold; /* Make all footer text bold */
+}
+
+footer a {
+  color: #a84e6c; /* Match footer text color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem; /* Shrink heading on smaller screens */
+  }
+
+  nav {
+    flex-direction: row; /* Keep nav links horizontal */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    justify-content: center; /* Center links */
+    gap: 0.5rem; /* Slightly tighter spacing */
+  }
+
+  nav a {
+    font-size: 0.95rem; /* Slightly smaller text on mobile */
+    padding: 0.3rem 0.6rem; /* Add touch-friendly spacing */
+  }
+
+  main {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  footer {
+    font-size: 13px; /* Slightly smaller font */
+    padding: 1rem; /* Adjust padding */
+  }
+}
+
+/* --- Image hover responsiveness --- */
+img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+img:active {
+  transform: scale(0.95); /* Slight shrink on click */
+  transition: transform 0.1s; /* Quick transition */
+}
+
+/* --- Form Styling --- */
+form {
+  margin: 1.5rem 0; /* Space around forms */
+}
+
+label {
+  display: block; /* Stack labels above inputs */
+  margin-bottom: 0.5rem; /* Space below label */
+  font-weight: bold; /* Emphasize labels */
+}
+
+input, select, textarea, button {
+  width: 100%; /* Full width inputs */
+  padding: 0.7rem; /* Internal spacing */
+  margin-bottom: 1rem; /* Space below each input */
+  border: 2px solid #ff69b4; /* Pink border */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width */
+  font-size: 1rem; /* Readable font size */
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #d4006e; /* Darker pink on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 8px rgba(212, 0, 110, 0.5); /* Pink glow */
+}
+
+button {
+  background-color: #ff69b4; /* Hot pink button */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-weight: bold; /* Bold text */
+}
+
+button:hover {
+  background-color: #d4006e; /* Darker pink on hover */
+}
+
+button:active {
+  background-color: #a8004a; /* Even darker pink on click */
+}
+
+/* --- Accessibility Enhancements --- */
+a:focus, button:focus {
+  outline: 3px solid #ff69b4; /* Visible focus outline */
+  outline-offset: 2px; /* Space between outline and element */
+}
+
+/* Align search bar to the far right */
+.search-container {
+    position: absolute; /* allows precise positioning */
+    top: 20px; /* adjust vertical placement */
+    right: 20px; /* far right */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* space between input and button */
+}
+
+.search-container input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* adjust size */
+}
+
+.search-container button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #df10ab;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #555; /* hover effect */
+}
+
+/* --- Popup Overlay --- */
+.popup-overlay {
+    display: none; /* hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 182, 193, 0.9); /* soft pink overlay */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+/* --- Popup Content --- */
+.popup-content {
+    background: linear-gradient(135deg, #fff0f5, #ffe6f0); /* pink gradient */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(212, 0, 110, 0.3);
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    border: 3px solid #ff69b4;
+    animation: popupFadeIn 0.4s ease-out;
+    text-align: center;
+}
+
+/* --- Popup Close Button --- */
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff69b4;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.popup-close:hover {
+    color: #d4006e;
+    background-color: #ffe4ec;
+    transform: scale(1.1);
+}
+
+/* --- Popup Message --- */
+#popup-message {
+    color: #5a2947;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 10px;
+}
+
+#popup-message h3 {
+    color: #d4006e;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-family: "Pacifico", cursive;
+    text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.5);
+}
+
+#popup-message p {
+    margin: 15px 0;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+#popup-message strong {
+    color: #ff69b4;
+}
+
+#popup-message em {
+    color: #a84e6c;
+    font-style: italic;
+}
+
+/* --- Success State --- */
+.popup-success {
+    border-color: #4CAF50;
+    background: linear-gradient(135deg, #f0fff0, #e8f5e8);
+}
+
+.popup-success #popup-message h3 {
+    color: #4CAF50;
+}
+
+/* --- Error State --- */
+.popup-error {
+    border-color: #f44336;
+    background: linear-gradient(135deg, #fff0f0, #f5e8e8);
+}
+
+.popup-error #popup-message h3 {
+    color: #f44336;
+}
+
+/* --- Info State --- */
+.popup-info {
+    border-color: #2196F3;
+    background: linear-gradient(135deg, #f0f8ff, #e8f4f8);
+}
+
+.popup-info #popup-message h3 {
+    color: #2196F3;
+}
+
+/* --- Animation --- */
+@keyframes popupFadeIn {
+    from { opacity: 0; transform: scale(0.7) translateY(-30px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .popup-content {
+        padding: 25px 20px;
+        margin: 15px;
+        border-radius: 15px;
+    }
+    .popup-close {
+        top: 10px;
+        right: 15px;
+        font-size: 24px;
+        width: 25px;
+        height: 25px;
+    }
+    #popup-message h3 {
+        font-size: 22px;
+    }
+    #popup-message p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popup-content {
+        padding: 20px 15px;
+        margin: 10px;
+    }
+    .popup-close {
+        top: 8px;
+        right: 12px;
+        font-size: 20px;
+    }
+    #popup-message h3 {
+        font-size: 20px;
+    }
+    #popup-message p {
+        font-size: 14px;
+    }
+}
+
