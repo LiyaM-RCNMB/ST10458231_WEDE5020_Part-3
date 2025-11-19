@@ -2,7 +2,7 @@ Part 1 Changelog
 
 – 25 Aug: Added HTML pages (Index.html, Home.html, Products.html, Enquiry.html, and Contact.html) for the website.
 
-– 26 Aug: Built the initial layout and added all the starting content.
+– 26 Aug: Built the layout and added content in HTML pages.
 
 – 27 Aug: Added basic styling and structure to make the website neat and easy to read.
 
