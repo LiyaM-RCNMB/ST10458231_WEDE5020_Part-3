@@ -6,7 +6,7 @@ In Part 1, I wrote the proposal, built the structure using HTML and organized ev
 
 In Part 3, I focused on improving the functionality and user experience of my website. I updated and cleaned up my JavaScript so the forms on the Enquiry and Contact pages validate properly and give clear feedback to the user. I also made sure the search feature works and takes the user to the right pages. I improved the layout and design based on feedback, making the site easier to navigate and more professional.
 
-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 Referencing list
 
