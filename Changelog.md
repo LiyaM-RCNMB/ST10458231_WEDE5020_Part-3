@@ -58,7 +58,9 @@ Part 3 Changelog
 
 – 15 Nov: Made the popup close when you click outside it or press Escape.
 
-– 16 Nov: Added a search bar to the Home page and placed it on the far right.
+– 16 Nov: Added a search bar to the Home page for pages and placed it on the far right.
+
+– 16 Nov: Added a search bar to the Products page to find specific perfumes and show a “no results” message if not found.
 
 – 17 Nov: Improved all form styling (inputs, buttons, spacing, labels, focus effects).
 
@@ -68,9 +70,11 @@ Part 3 Changelog
 
 – 18 Nov: Added the pulse animation for buttons on forms.
 
-– 19 Nov: Organised my code to make everything easier to read.
+– 19 Nov: Added the Services page with a filter feature.
 
-– 19 Nov: Checked that the popup system and forms work well.
+– 19 Nov: Connected the contact form to Formspree.
 
+– 19 Nov: Fixed the embedded Google Map to display correctly and be responsive.
 
+– 19 Nov: Organised my code to make everything easier to read and checked that popups, search, forms, and filters work well.
 
