@@ -68,9 +68,9 @@ Part 3 Changelog
 
 – 18 Nov: Added the pulse animation for buttons on forms.
 
-– 19 Nov: Cleaned up and organised my code to make everything easier to read.
+– 19 Nov: Organised my code to make everything easier to read.
 
-– 19 Nov: Checked that the popup system and forms work well on all devices.
+– 19 Nov: Checked that the popup system and forms work well.
 
 
 
