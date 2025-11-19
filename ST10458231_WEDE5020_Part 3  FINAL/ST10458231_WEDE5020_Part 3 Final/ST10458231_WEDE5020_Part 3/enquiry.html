@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/laystyle.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit an enquiry about our perfume products, availability, pricing, or services. Our team will respond with the information you need.">
+    <meta name="keywords" content="perfume enquiry, product availability, perfume pricing, All About Perfume services, contact for perfumes">
+    <title>All About Perfume | Enquiry</title> <!-- Enquiry Page Title -->
+</head>
+
+<body>
+<header>
+    <h1>All About Perfume</h1> <!-- Main Heading -->
+    <P>Affordable luxury-inspired fragrances in South Africa.</P>
+</header>
+
+<!--Main Navigation-->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="products.html">Products</a>
+  <a href="services.html">Services</a>
+  <a href="enquiry.html">Enquiry</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!--Enquiry form-->
+<main>
+  <h2>Send Us an Enquiry</h2> <!-- Subheading -->
+    <p>If you'd like to ask about our services, products, or volunteering/sponsorship opportunities, please fill in the form below:</p>
+   
+<!-- SINGLE FORM WRAPPING ALL FIELDS -->
+<form id="enquiry-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="ctype">Query Type:</label>
+  <select id="ctype" name="ctype" required>
+    <option value="Product Enquiry">Product Enquiry</option>
+    <option value="Service Enquiry">Service Enquiry</option>
+    <option value="Sponsorship/Volunteer Enquiry">Sponsorship/Volunteer Enquiry</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Submit Enquiry</button>
+</form>
+
+<!-- POPUP STRUCTURE - ADD THIS -->
+<div id="popup-overlay" class="popup-overlay">
+  <div id="popup-content" class="popup-content">
+    <span id="popup-close" class="popup-close">&times;</span>
+    <div id="popup-message">
+      <!-- Popup content will be inserted here -->
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!--Footer-->
+<footer>
+ <p>Email: info@allaboutperfume.co.za | Phone: +27 123 456 7890</p>
+
+ <div style="margin: 15px 0;">
+   <a href="https://instagram.com/allaboutperfume" target="_blank" style="color: #eee; margin: 0 10px;">Instagram</a>
+   <a href="https://facebook.com/allaboutperfume" target="_blank" style="color: #eee; margin: 0 10px;">Facebook</a>
+   <a href="https://tiktok.com/@allaboutperfume" target="_blank" style="color: #eee; margin: 0 10px;">TikTok</a>
+ </div>
+
+ <p>Location:
+  <a href="https://www.google.com/maps/place/Boardwalk+Mall/@-33.9843803,25.6547504,17z/data=!3m1!4b1!4m6!3m5!1s0x1e653329c3470f31:0x74a2af170beb0897!8m2!3d-33.9843848!4d25.6593638!16s%2Fg%2F11m__kys4l?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+    Find us at Boardwalk Mall, Gqeberha
+  </a>
+ </p>
+
+  <p>Nationwide delivery</p>
+
+  <p>&copy; 2025 All About Perfume. All rights reserved.</p>
+</footer>  
+
+<!-- LOAD POPUP JS FIRST -->
+<script src="Java/script.js"></script>
+</body>
+</html>
