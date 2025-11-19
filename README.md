@@ -26,6 +26,8 @@ https://www.facebook.com/photo/?fbid=849639610648931&set=a.505655938380635 [Acce
 • The Perfume Co. Africa. N.d. The Perfume Co. Africa. [Online]. Available at:
 https://www.theperfumecoafrica.com/ [Accessed 23 August 2025].
 
+• Google Maps. n.d. [Online]. Available at: https://www.google.com/maps/place/Boardwalk+Mall/@-33.9843803,25.6547504,17z/data=!3m1!4b1!4m6!3m5!1s0x1e653329c3470f31:0x74a2af170beb0897!8m2!3d-33.9843848!4d25.6593638!16s%2Fg%2F11m__kys4l?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D [Accessed 18 November 2025].
+
 • W3schools.n.d. Java Tutorial. [online] W3schools.com. Available at: https://www.w3schools.com/java/ [Accessed 19 November 2025]. 
 
 ‌
